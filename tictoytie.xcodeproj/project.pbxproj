@@ -15,6 +15,9 @@
 		4207375F23224EC800B32873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4207375D23224EC800B32873 /* LaunchScreen.storyboard */; };
 		4207376A23224EC800B32873 /* tictoytieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207376923224EC800B32873 /* tictoytieTests.swift */; };
 		4207377523224EC800B32873 /* tictoytieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207377423224EC800B32873 /* tictoytieUITests.swift */; };
+		420737852322507000B32873 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 420737822322507000B32873 /* cross.png */; };
+		420737862322507000B32873 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 420737832322507000B32873 /* circle.png */; };
+		420737872322507000B32873 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 420737842322507000B32873 /* board.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		4207377023224EC800B32873 /* tictoytieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tictoytieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4207377423224EC800B32873 /* tictoytieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tictoytieUITests.swift; sourceTree = "<group>"; };
 		4207377623224EC800B32873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420737822322507000B32873 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		420737832322507000B32873 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		420737842322507000B32873 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +110,11 @@
 				4207375523224EC800B32873 /* Main.storyboard */,
 				4207375B23224EC800B32873 /* Assets.xcassets */,
 				4207375D23224EC800B32873 /* LaunchScreen.storyboard */,
-				4207376023224EC800B32873 /* Info.plist */,
 				4207375823224EC800B32873 /* tictoytie.xcdatamodeld */,
+				420737842322507000B32873 /* board.png */,
+				420737832322507000B32873 /* circle.png */,
+				420737822322507000B32873 /* cross.png */,
+				4207376023224EC800B32873 /* Info.plist */,
 			);
 			path = tictoytie;
 			sourceTree = "<group>";
@@ -237,6 +246,9 @@
 			files = (
 				4207375F23224EC800B32873 /* LaunchScreen.storyboard in Resources */,
 				4207375C23224EC800B32873 /* Assets.xcassets in Resources */,
+				420737872322507000B32873 /* board.png in Resources */,
+				420737862322507000B32873 /* circle.png in Resources */,
+				420737852322507000B32873 /* cross.png in Resources */,
 				4207375723224EC800B32873 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
